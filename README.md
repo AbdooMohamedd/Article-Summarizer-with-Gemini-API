@@ -20,10 +20,6 @@ After submitting the URL, the summarized article is displayed on this page.
 
 ## Instructions
 
-```markdown
-
-```
-
 1. **Clone the repository:**
 
    ```sh
