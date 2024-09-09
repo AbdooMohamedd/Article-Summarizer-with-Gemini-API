@@ -31,13 +31,15 @@ After submitting the URL, the summarized article is displayed on this page.
 3. Go to [Google AI Studio](https://aistudio.google.com/app/apikey) and generate an API key.
 4. Create a Windows environment variable called `GEMINI_API_KEY` with the key you generated.
 
+````markdown
+### Setting Up the GEMINI_API_KEY Environment Variable
+
 #### On Windows:
 
 1. Open Command Prompt and run:
    ```bash
    set GEMINI_API_KEY=your_api_key_here
    ```
-
 ````
 
 For permanent setup:
@@ -66,8 +68,4 @@ For permanent setup:
 5. Run the application from the `app.py` file:
    ```sh
    python app.py
-   ```
-
-```
-
-```
+````
