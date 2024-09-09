@@ -9,6 +9,10 @@
 <body>
     <div class="summary-container">
         <h1>Article Summary</h1>
+        <p style="display: inline;">
+            <a href="{{ url }}" target="_blank" style="font-size: 0.9em; text-decoration: underline;">Original Article</a> 
+             {{ title }}
+        </p>
         <div class="summary-content">
             {{ summary | safe }}
         </div>

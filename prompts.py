@@ -5,7 +5,7 @@ PROMPT_TEMPLATE = """
 
 Your task is to summarize the article in 3-6 paragraphs, with each paragraph containing 20-30 words:
 
-- Start with the title of the article without the author or author's name
+- Start with the title of the article without the author or author's name, or the website name if it's included in the title
 - Provide a concise overview of the main points
 - Include key details and insights in each paragraph
 - Avoid any code, technical jargon, or links

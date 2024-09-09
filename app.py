@@ -20,11 +20,9 @@ def summarize():
     try:
         summary = call_gemini_api(prompt)
         structured_summary = format_summary(summary)
-        return render_template('summary.html', summary=structured_summary)
+        return render_template('summary.html', summary=structured_summary, url=url)
     except Exception as e:
         return f"Error: {e}"
-
-
 
 
 def format_summary(summary):
