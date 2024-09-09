@@ -18,9 +18,9 @@ After submitting the URL, the summarized article is displayed on this page.
 
 ![Summay](img/summay.png)
 
-````markdown
 ## Instructions
 
+````markdown
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/AbdooMohamedd/Article-Summarizer-with-Gemini-API.git
