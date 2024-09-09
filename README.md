@@ -22,10 +22,10 @@ After submitting the URL, the summarized article is displayed on this page.
 
 ````markdown
 1. **Clone the repository:**
+
    ```sh
    git clone https://github.com/AbdooMohamedd/Article-Summarizer-with-Gemini-API.git
    ```
-````
 
 2. **Install the required packages:**
 
@@ -67,3 +67,4 @@ After submitting the URL, the summarized article is displayed on this page.
    ```sh
    python app.py
    ```
+````
