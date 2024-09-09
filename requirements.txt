@@ -1,0 +1,7 @@
+Flask==2.3.2
+beautifulsoup4==4.12.2
+requests==2.31.0
+lxml==4.9.3
+gunicorn==20.1.0
+python-dotenv==1.0.0
+google-generativeai==0.3.0
