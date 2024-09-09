@@ -16,7 +16,7 @@ On this page, users can enter the URL of the article they want to summarize.
 
 After submitting the URL, the summarized article is displayed on this page.
 
-![Summary](img\summay.png)
+![Summay](img/summay.png)
 
 ## Instructions
 
