@@ -1,0 +1,97 @@
+/* General styles for the body and container */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Darker futuristic gradient */
+    color: #e0e0e0; /* Light grey text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4em; /* Larger font size for title */
+    margin-bottom: 20px;
+    color: #ffffff; /* White color for headings */
+    text-align: center; /* Center the title text */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Subtle shadow for text */
+}
+
+/* Specific style for the first link on the summary page */
+.summary-container a {
+    font-size: 2em; /* Make the first link bigger */
+    color: #99f2c8; /* Light green color for links */
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    text-align: center; /* Center align the link */
+    transition: color 0.3s ease;
+}
+
+.summary-container a:hover {
+    color: #1f4037; /* Dark green on hover */
+}
+
+/* Additional container styles */
+.container, .summary-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 80%; /* Make the container wider */
+    max-width: 1000px; /* Maximum width */
+    text-align: center;
+}
+
+label, input, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #1f4037; /* Dark green button */
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #99f2c8; /* Light green on hover */
+}
+
+.summary-content {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Additional styles for the first line in summary-content */
+.summary-content::first-line {
+    font-size: 1.5em; /* Increase font size of the first line */
+    text-align: center; /* Center the first line */
+    display: block; /* Ensure the first line is treated as a block */
+    margin-bottom: 20px; /* Add margin below the first line */
+}
+
+a {
+    color: #99f2c8; /* Light green color for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1f4037; /* Dark green on hover */
+}
