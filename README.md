@@ -62,7 +62,13 @@ After submitting the URL, the summarized article is displayed on this page.
         source ~/.bashrc  # or ~/.bash_profile or ~/.zshrc
         ```
 
-5. **Run the application:**
+5. **Navigate to the project folder:**
+
+   ```sh
+   cd path/to/your/project
+   ```
+
+6. **Run the application:**
    ```sh
    python app.py
    ```
